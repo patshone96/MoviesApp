@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">U6_AE1_OliverBaidezPatrick</string>
+    <string name="todo">TODO</string>
+    <string name="tvTituloPrincipal">Cartelera de Películas</string>
+    <string name="Options">Opciones</string>
+    <string name="tvConfig">Configuración</string>
+    <string name="swDescarga">Descarga Automática</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnDefecto">Por defecto</string>
+    <string name="tvAcercaTitulo">Acerca de esta app...</string>
+    <string name="tvDerechos">"Esta app ha sido desarrollada por Patrick Oliver Baidez y se encuentra bajo licencia GPLv3 "</string>
+
+    <array name="idiomas">
+        <item>Español</item>
+        <item>English</item>
+    </array>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Yellow"
+    tools:context=".MainActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rRecycler"
+        android:layout_width="327dp"
+        android:layout_height="513dp"
+        android:background="@color/Cultured"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTituloPrincipal"
+        app:layout_constraintVertical_bias="0.346"
+        tools:listitem="@android:layout/expandable_list_content" />
+
+    <TextView
+        android:id="@+id/tvTituloPrincipal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/Impatial_Red"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:text="@string/tvTituloPrincipal"
+        android:textColor="@color/Space_Cadet"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

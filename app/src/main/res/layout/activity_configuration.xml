@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Yellow"
+    tools:context=".Configuration">
+
+    <TextView
+        android:id="@+id/tvConfig"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/Impatial_Red"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/tvConfig"
+        android:textColor="@color/Space_Cadet"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <Spinner
+        android:id="@+id/spnLanguage"
+        style="@style/Widget.AppCompat.Spinner.DropDown"
+        android:layout_width="307dp"
+        android:layout_height="48dp"
+        android:background="#E4373B"
+        android:entries="@array/idiomas"
+        android:padding="5dip"
+        android:scrollbarSize="6dp"
+        android:spinnerMode="dialog"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvConfig"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <Switch
+        android:id="@+id/swDescarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Impatial_Red"
+        android:minHeight="48dp"
+        android:text="@string/swDescarga"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnLanguage"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Impatial_Red"
+        android:shadowColor="@color/purple_500"
+        android:text="@string/btnGuardar"
+        android:textColor="@color/Space_Cadet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swDescarga"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <Button
+        android:id="@+id/btnDefecto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Impatial_Red"
+        android:text="@string/btnDefecto"
+        android:textColor="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toEndOf="@+id/btnGuardar"
+        app:layout_constraintTop_toBottomOf="@+id/swDescarga"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="166dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swDescarga"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/launcher" />
+</androidx.constraintlayout.widget.ConstraintLayout>

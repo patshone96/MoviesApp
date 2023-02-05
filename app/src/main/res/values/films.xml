@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="numberFilms">10</integer>
+
+    <array name="pelis">
+        <item>BROS</item>
+        <item>Don\'t Worry Darling"</item>
+        <item>Black Adam</item>
+        <item>Death on the Nile</item>
+        <item>Black Panther: Wakanda Forever</item>
+        <item>Pitch Perfect</item>
+        <item>Nope!</item>
+        <item>The Rocky Horror Picture Show</item>
+        <item>Everything Everywhere All at Once</item>
+        <item>Parasite</item>
+    </array>
+
+    <array name="descript">
+        <item>Bobby Lieber, host of the podcast and radio show The Eleventh Brick at Stonewall who prides himself on being single, attends an awards ceremony for the LGBTQ community, where he wins an award for "Best White Cis Gay Man". He announces that he has accepted a position as a curator for the upcoming new National LGBTQ+ History Museum in Manhattan.
+        </item>
+        <item>Alice (Florence Pugh) y Jack (Harry Styles) tienen la suerte de vivir en Victoria, la ciudad experimental de una compañía que alberga a los hombres que trabajan para un proyecto secreto llamado Victoria y a sus familias. La vida es perfecta, con las necesidades de cada residente satisfechas por la empresa. Todo lo que ellos piden a cambio es un compromiso incondicional con la causa de Victoria. Pero cuando comienzan a aparecer grietas en su idílica vida, exponiendo destellos de algo mucho más siniestro que acecha debajo de la atractiva fachada, Alice no puede evitar cuestionar qué están haciendo en Victoria y por qué.
+        </item>
+        <item>En 2600 a. C., el tiránico rey de Kahndaq, Ahk-Ton, creó la Corona de Sabbac, conocida por otorgar gran poder a quien la lleva. Después de intentar organizar una revuelta, un joven esclavo recibe el poder de Shazam, transformándolo en el heroico campeón de Kahndaq Teth-Adam; mata a Ahk-Ton y termina su reinado.
+        </item>
+        <item>In World War I, a young Hercule Poirot devises a strategy to advance his Belgian infantry company. While his strategy is initially successful a booby trap kills and injures many in the company as well as mutilating Hercule\'s face. His fiancée, nurse Katherine, does not recoil, but suggests he could grow a mustache to hide his scars.
+        </item>
+        <item>T\'Challa, rey de Wakanda, se está muriendo de una enfermedad que su hermana, Shuri, cree que se puede curar con la "hierba en forma de corazón". Shuri intenta recrear sintéticamente la hierba después de que fuera destruida por Killmonger, pero no logra hacerlo antes de que T\'Challa sucumba.
+        </item>
+        <item>
+            El argumento se centra en un grupo femenino universitario de música acapella llamado The Barden Bellas, el cual ha de competir contra otro grupo del centro educativo para acceder y ganar los nacionales. El filme está ligeramente basado en la novela homónima de Mickey Rapkin.
+        </item>
+        <item>
+            The Haywood family trains and handles horses for film and television productions. Otis Haywood Sr. is killed by a falling coin, which they presume fell out of an airplane. His children Otis "OJ" Haywood Jr. and Emerald "Em" Haywood inherit the ranch. To keep the business afloat, OJ sells some of the horses to Ricky "Jupe" Park, who operates a nearby Western theme park named Jupiter\'s Claim. At the park, Jupe also exploits his past as a child actor on a sitcom, being the only actor left unscathed when a chimpanzee animal actor named Gordy attacked Jupe\'s other human co-stars on set before being put down.
+        </item>
+        <item>
+            The film begins with a pair of floating disembodied lips welcoming the audience to a science fiction double feature. Throughout the film, a criminologist from an unspecified point in the future narrates and provides commentary on the events.
+            Following the wedding of their friends, a naive young couple, Brad Majors and Janet Weiss, get engaged and decide to celebrate with their high school science teacher Dr. Scott, who taught the class where they first met. En route to Scott\'s house on a dark and rainy night, they get lost with a flat tire. Seeking a telephone to call for help, the couple walks to a nearby castle where a party is going on. They are accepted in by the strangely dressed inhabitants, led by the butler Riff Raff, the maid Magenta, and a groupie named Columbia, who dance to "The Time Warp". Despite feeling apprehensive, they stay to meet the owner of the castle, Dr. Frank-N-Furter. He invites them to stay for the night.
+        </item>
+        <item>
+            La trama sigue a Evelyn Wang, una mujer chino-estadounidense auditada por el IRS para mantener su lavandería, la cual descubre que tiene el poder de existir en universos paralelos y debe ayudar a prevenir la destrucción de todos ellos.
+        </item>
+        <item>
+            La familia Kim, compuesta por el padre Kim Ki-taek, la madre Chung-sook, el hijo Ki-woo y la hija Ki-jeong, viven en un pequeño apartamento en un semisótano, en un barrio pobre de la ciudad, trabajan en empleos temporales mal remunerados y luchan para llegar a fin de mes. El amigo de Ki-woo, un estudiante de universidad Min-hyuk, que se está preparando para estudiar en el extranjero, le regala a la familia Kim una piedra de erudito (Gongshi) que se supone les traerá riqueza. Min-hyuk le propone a Ki-woo, hacerse pasar por estudiante universitario, para obtener su trabajo como tutor de inglés de la hija adolescente de la rica familia Park, Da-hye.
+        </item>
+    </array>
+
+    <integer-array name="years">
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2012</item>
+        <item>2022</item>
+        <item>1975</item>
+        <item>2022</item>
+        <item>2019</item>
+    </integer-array>
+
+    <string-array name="favs">
+        <item>False</item>
+        <item>False</item>
+        <item>False</item>
+        <item>False</item>
+        <item>False</item>
+        <item>False</item>
+        <item>False</item>
+        <item>False</item>
+        <item>False</item>
+        <item>False</item>
+    </string-array>
+
+    <array name="pics">
+        <item>bros</item>
+        <item>dwd</item>
+        <item>ba</item>
+        <item>dotn</item>
+        <item>bp</item>
+        <item>nope</item>
+        <item>horror</item>
+        <item>every</item>
+        <item>parasite</item>
+    </array>
+
+</resources>

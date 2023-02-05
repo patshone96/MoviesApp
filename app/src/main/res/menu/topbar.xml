@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--<item android:id="@+id/three"-->
+<!--    android:icon="@drawable/three_dots"-->
+<!--    android:title="@string/Options"-->
+<!--    app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/config"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never|withText"
+        android:title="Configuración"/>
+
+    <item
+        android:id="@+id/about"
+        app:showAsAction="never"
+        android:title="Acerca de..."/>
+
+</menu>

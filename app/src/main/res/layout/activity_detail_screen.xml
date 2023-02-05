@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/espBakcground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Yellow"
+    tools:context=".DetailScreen">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/Impatial_Red"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textColor="@color/Space_Cadet"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <ImageView
+        android:id="@+id/ivImageDetail"
+        android:layout_width="141dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:layout_constraintVertical_bias="0.071"
+        app:srcCompat="@drawable/ba" />
+
+    <TextView
+        android:id="@+id/tvDescDetail"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@color/Cultured"
+        android:fontFamily="sans-serif-medium"
+        android:padding="8dp"
+        android:text="TextView"
+        android:textColor="@color/Space_Cadet"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivImageDetail"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescDetail"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/launcher" />
+</androidx.constraintlayout.widget.ConstraintLayout>
